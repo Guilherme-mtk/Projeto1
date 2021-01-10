@@ -1,0 +1,293 @@
+
+*{box-sizing: border-box;}
+
+
+body ,ul ,li,h1,h2, a {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+    background: #ffffff;
+    font-size:"Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display:none;
+}
+
+
+
+.logo {
+    position: absolute;
+    width: 191.82px;
+    height: 65px;
+    left: 218px;
+    top: 47px;
+}
+    
+/* Menu  */
+.menu-nav  {
+    max-width: 1920px;
+    display: flex;
+    
+}
+
+.menu-list {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 308px;
+
+    
+}
+
+
+.menu-menu ul {
+    display: flex;
+   
+   
+   
+}
+
+.menu-menu ul li {
+    padding: 10px;
+}
+
+.menu-menu ul li a {
+    color: #035755;
+}
+
+
+li .efeito:hover::after {
+  content:"";
+  height: 6px;
+  width: 6px;
+  background-color: #FF383D;
+  border-radius: 50%;
+  display: block;
+  margin: 6px auto;
+
+}
+
+
+
+.menu-menu a {
+    display: block;
+    padding: 20px;
+}
+
+.menu-menu ul li a:hover {
+    color: #FB4C47;
+
+}
+
+.menu-menu ul .contact-button {
+    border: solid;
+    padding: 18px 40px;
+    border-radius: 46px;
+    color: #FF383D;
+    margin-right: -63px;
+
+}
+
+
+.section-img {
+    position: absolute;
+    width: 1177px;
+    height: 812px;
+    left: 863px;
+    top: 147px;
+}
+
+.covid-19-alert-info {
+    position: absolute;
+    width: 641px;
+    height: 443px;
+    left: 243px;
+    top: 411px;
+}
+
+
+h1 {
+    font-size: 32px;
+    color: #FB4C47;
+}
+
+h2 {
+    font-size: 52px;
+    color: #035755;
+}
+
+
+p {
+    font-size: 24px;
+    color:#4B4F51;
+    margin-bottom: 43px;
+}
+
+/* PARTE 2 */
+
+.button-2 {
+border: solid;
+padding: 18px 40px;
+border-radius: 65px;
+background-color: #FB4C47;
+color: #ffffff;
+margin-bottom:1000px;
+}
+
+.img-2 {
+position: absolute;
+width: 979.42px;
+height: 796.36px;
+left: -138.41px;
+top: 1079px;
+opacity: 0.62;
+transform: rotate(-7.32deg);
+
+}
+
+.part-2{
+
+position: absolute;
+width: 648px;
+height: 200px;
+left: 997px;
+top: 1277px;
+font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 215%;
+}
+ 
+
+/* mediaQUERY*/
+
+@media screen and (min-width:0px) and (max-width:800px) {
+
+    body ,ul ,li,h1,h2, a {
+        margin: 0;
+        padding: 0;
+      
+      }
+
+    body {
+
+        background: #FFF8F8;
+    }
+
+    .menu {
+        background:#FF383D;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        
+    }
+
+    .hamburguer {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        width: 30px;
+        height: 2px;
+        top: 29px;
+        left: 14px;
+
+    }
+
+    .hamburguer:before,.hamburguer:after{
+        background: #ffffff;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+
+    .hamburguer:before {
+        top: -10px;
+    }
+
+    .hamburguer:after{
+        bottom: -10px;
+    }
+    
+
+    input:checked ~ label .hamburguer {
+        transform:rotate(45deg);
+
+    }
+
+    .menu-menu ul li a {
+        display: none;
+    }
+
+
+    .logo {
+        margin-left: -200px;
+        margin-top: -30px;
+    }
+
+    .section-img {
+        display: none;
+    }
+
+    .menu-menu ul .contact-button  {
+        border: 0;
+        position: absolute;   
+        left: 50px;
+        top: 185px;
+        color:#035755;
+       
+       }
+
+    
+
+    h1 {
+      margin-top: -70px;
+      margin-left: -200px;
+      font-size: 25px;
+    }
+
+    h2 {
+        margin-left: -200px; 
+        font-size: 35px;
+    }
+
+    p {
+        margin-left: -200px; 
+        font-size: 15px;
+    }
+
+    .button-2  {
+        margin-left: -200px;
+        
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:501px)  and (max-width:800px) {
