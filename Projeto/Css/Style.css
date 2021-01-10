@@ -191,6 +191,13 @@ line-height: 215%;
         background: #FFF8F8;
     }
 
+    .logo {
+        position: absolute;
+        justify-content: center;
+        left:140px;
+        top: 80px;
+    }
+
     .menu {
         background:#FF383D;
         border-radius: 50%;
@@ -242,10 +249,6 @@ line-height: 215%;
     }
 
 
-    .logo {
-        margin-left: -200px;
-        margin-top: -30px;
-    }
 
     .section-img {
         display: none;
@@ -263,7 +266,7 @@ line-height: 215%;
     
 
     h1 {
-      margin-top: -70px;
+      margin-top: -100px;
       margin-left: -200px;
       font-size: 25px;
     }
