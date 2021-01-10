@@ -33,7 +33,7 @@ a {
     width: 191.82px;
     height: 65px;
     left: 218px;
-    top: 47px;
+    top: 55px;
 }
     
 /* Menu  */
@@ -282,6 +282,10 @@ line-height: 215%;
         margin-left: -200px;
         
 
+    }
+
+    .img-2 {
+        display: none;
     }
 
 }
