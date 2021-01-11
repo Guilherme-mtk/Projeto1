@@ -256,6 +256,37 @@ p {
   .img-2 {
     display: none;
   }
+
+  .part-2 h1 {
+    position: absolute;
+    top: -350px;
+    margin-left: -960px;
+  }
+  .part-2 h2 {
+    position: absolute;
+    top: -330px;
+    left: -760px;
+  }
+  .part-2 p {
+    position: absolute;
+    width: 420px;
+    top: -280px;
+    left: -760px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .virus-cortado {
+    position: absolute;
+    top: -680px;
+    left: -730px;
+  }
+
+  .virus-pequeno {
+    position: absolute;
+    top: -80px;
+    left: -700px;
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -310,5 +341,40 @@ p {
 
   .button-2 {
     margin-left: -190px;
+  }
+
+  /*Parte-2 */
+
+  .part-2 h1 {
+    position: absolute;
+    top: -350px;
+    margin-left: -960px;
+    font-size: 35px;
+  }
+  .part-2 h2 {
+    position: absolute;
+    top: -330px;
+    left: -760px;
+    font-size: 45px;
+  }
+  .part-2 p {
+    position: absolute;
+    width: 680px;
+    top: -250px;
+    left: -760px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .virus-cortado {
+    position: absolute;
+    top: -680px;
+    left: -448px;
+  }
+
+  .virus-pequeno {
+    position: absolute;
+    top: -80px;
+    left: -450px;
   }
 }
