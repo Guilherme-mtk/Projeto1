@@ -171,7 +171,7 @@ p {
 
 /* mediaQUERY*/
 
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 500px) {
   body,
   ul {
     margin: 0;
@@ -297,7 +297,7 @@ p {
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 501px) and (max-width: 800px) {
   .section-img {
     display: none;
   }
