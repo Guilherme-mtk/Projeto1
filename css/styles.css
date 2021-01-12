@@ -296,6 +296,14 @@ p {
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
+  .section-img {
+    display: none;
+  }
+
+  .img-2 {
+    display: none;
+  }
+
   ul {
     position: absolute;
     top: 90px;
@@ -346,7 +354,7 @@ p {
   }
 
   .button-2 {
-    margin-left: -190px;
+    margin-left: -200px;
   }
 
   /*Parte-2 */
@@ -382,5 +390,11 @@ p {
     position: absolute;
     top: -80px;
     left: -450px;
+  }
+
+  .button-3 {
+    position: relative;
+    margin-left: -965px;
+    top: -20px;
   }
 }
