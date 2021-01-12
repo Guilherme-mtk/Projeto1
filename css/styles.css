@@ -248,7 +248,9 @@ p {
   }
 
   .button-2 {
-    margin-left: -190px;
+    position: absolute;
+    top: 180px;
+    left: -205px;
   }
 
   /* parte 2*/
@@ -291,7 +293,7 @@ p {
   .button-3 {
     position: relative;
     margin-left: -970px;
-    top: -90px;
+    top: -110px;
   }
 }
 
