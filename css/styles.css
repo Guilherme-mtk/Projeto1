@@ -36,7 +36,7 @@ a {
 }
 
 .menu-list {
-  max-width: 1920px;
+  max-width: 1940px;
   margin: 0 auto;
   padding: 26px 0;
   display: flex;
@@ -86,7 +86,7 @@ li .efeito:hover::after {
 
 .section-img {
   position: absolute;
-  width: 1177px;
+  width: 1058px;
   height: 812px;
   left: 845px;
   top: 147px;
