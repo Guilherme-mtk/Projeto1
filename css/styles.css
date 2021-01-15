@@ -123,6 +123,7 @@ p {
   font-size: 24px;
   color: #4b4f51;
   margin-bottom: 43px;
+  line-height: 35px;
 }
 
 .button-2 {
@@ -145,13 +146,19 @@ p {
 }
 
 .part-2 {
-  max-width: 648px;
-  margin-top: 430px;
-  margin-left: -2px;
+  max-width: 1920px;
+  margin-top: -640px;
+  margin-left: 974px;
+  flex-wrap: wrap;
 }
 
 .img-2 {
   margin-top: 115px;
+}
+
+p {
+  max-width: 640px;
+  line-height: 45px;
 }
 
 .button-3 {
@@ -160,4 +167,14 @@ p {
   border-radius: 65px;
   background-color: #ffe4e3;
   color: #fb4c47;
+}
+
+.virus-cortado {
+  margin-top: 20px;
+  margin-left: 710px;
+}
+
+.virus-pequeno {
+  margin-top: -50px;
+  margin-left: 700px;
 }
