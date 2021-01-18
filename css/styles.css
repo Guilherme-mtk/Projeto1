@@ -179,19 +179,16 @@ p {
   margin-left: 700px;
 }
 
-
 /*SECTION 3*/
 
-
 .parte-3 {
-  max-width: 100%;
+  margin-top: 190px;
 }
-
 
 .parte-3-imgs {
-  display:flex center;
+  display: flex center;
+  max-width: 100%;
 }
-
 
 .img-parte-3 {
   margin-top: 90px;
@@ -216,23 +213,20 @@ p {
 }
 
 .parte-3 h1 {
-  margin-left: 200px;
+  margin-left: 240px;
   align-items: center;
 }
 
 .parte-3 h2 {
-  margin-left: 150px;
+  margin-left: 195px;
   align-items: center;
 }
-
-
 
 .Virus-lateral-2 {
   position: absolute;
   margin-top: -440px;
   margin-left: 65px;
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   li .efeito:hover::after {
