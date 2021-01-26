@@ -558,7 +558,7 @@ padding-top: 40px;
   .section-3 {
     width: 300px;
     height: 2300px;
-    margin-top: -170px;
+    margin-top: -100px;
     margin-left: -170px;
   }
 
@@ -591,15 +591,19 @@ padding-top: 40px;
     margin-left: 0px;
   }
 
-  .imgs-4  p{
+  .imgs-4 p{
     margin-top: -10px;
   }
 
   .imgs-5 {
     margin-top: 40px;
     margin-left: 0px;
-   
+   }
+
+   .imgs-5 p{
+    margin-top: -10px;
   }
+
   .virus-cortado {
     display: none;
   }
