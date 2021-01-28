@@ -357,6 +357,189 @@ padding-top: 40px;
     align-items: center;
   }
 
+  /*Section-5*/
+
+  .section-5 {
+    max-width: 1600px;
+    height: 1300px;
+    padding: 0 32px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+
+  .section5-titulo {
+   margin-bottom: 50px;
+  }
+
+  .section-5 h1 {
+    font-size: 52px;
+    color: #fb4c47;
+  }
+  
+  .section-5 h2 {
+    font-size: 52px;
+    color: #035755;
+  }
+  
+  .section-5 p {
+    font-size: 24px;
+    color: #4b4f51;
+    line-height: 45px;
+    padding-top: 10px;
+   
+  }
+
+  .virus-verde {
+    position: absolute;
+    left: 0px;
+    margin-top: 500px;
+  }
+
+  .img-texto {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.masks h1{
+  font-size: 52px;
+  color: #035755;
+  margin-top: 80px;
+}
+
+.section5-img-1 {
+  max-width: 1600px; 
+}
+
+.texto-imagem {
+  display: flex;
+}
+
+.n-1 {
+  margin:200px 30px;
+}
+
+.masks {
+  width: 780px;
+  margin-top: 120px;
+  
+  
+}
+
+.img2-texto {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.n-2 {
+margin-left:-90px;
+margin-top: -290px;
+  
+}
+
+.hands {
+  max-width: 1700px;
+}
+
+.hands h1 {
+  text-align: start;
+  margin: 0 20px;
+  color: #035755;
+  margin-top: -10px;
+}
+
+.hands p  {
+  text-align: start; 
+  margin-left: 30px;
+  
+}
+
+.section5-img-2 {
+max-width: 900px;
+width: 100%;
+text-align: start;
+
+}
+
+.img3-texto {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.rag {
+  max-width: 900px;
+  width: 100%;
+  text-align: start;
+}
+
+.rag h1 {
+  color: #035755;
+}
+
+ 
+.section5-img-3 {
+  max-width:900px;
+  width: 100%;
+  
+}
+
+.n-3 {
+  margin: 0px 20px;
+  margin-top:-235px;
+}
+
+.img4-texto {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.avoid {
+  text-align: start;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+
+.section5-img-4 {
+  max-width: 600px;
+  width: 100%;
+  display: flex start;
+}
+
+.n-4 {
+ margin-left: 100px;
+  margin-top: -208px;
+}
+
+.avoid h1 {
+ margin: 0 15px;
+ color: #035755;
+}
+
+.avoid p{
+  margin:10px 30px;
+}
+
+.section5-virus-rosa {
+  position: absolute;
+  left: 1736px;
+}
+
+.section5-virus-verde {
+  position: absolute;
+  left: 1730px;
+  margin-top: -480px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
   /*Header*/
@@ -452,6 +635,7 @@ padding-top: 40px;
 
   .section-4 {
     height: 800px;
+    margin-top: 80px;
   }
 
   .petala-maior {
@@ -587,7 +771,7 @@ padding-top: 40px;
   }
 
   .imgs-4 {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 0px;
   }
 
@@ -596,12 +780,12 @@ padding-top: 40px;
   }
 
   .imgs-5 {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 0px;
    }
 
    .imgs-5 p{
-    margin-top: -20px;
+    margin-top: -10px;
   }
 
   .virus-cortado {
@@ -609,7 +793,9 @@ padding-top: 40px;
   }
 
   .imgs h1 {
-  margin-left: 40px;
+  margin: 20px 30px;
+  margin-left: 50px;
+  
 
   }
 
@@ -633,6 +819,10 @@ padding-top: 40px;
   .petala-menor {
     display: none;
   }
+
+  /*Section-5*/
+
+
 
 
 }
