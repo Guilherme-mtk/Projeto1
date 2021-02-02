@@ -639,7 +639,7 @@ width: 48%;
     transition: all 0.5s;
     position: absolute;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 125px;
     margin-top: 200px;
     font-size: 25px;
    
@@ -711,10 +711,11 @@ width: 48%;
 
   .section1-tituto h1 {
     font-size: 25px;
+    
   }
 
   .section1-tituto h2 {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .section1-tituto p {
@@ -751,7 +752,7 @@ width: 48%;
  
   .section-3 {
     width: 300px;
-    margin-top: 100px;
+    margin-top: -80px;
     margin-left: -170px;
   }
 
@@ -822,7 +823,7 @@ width: 48%;
 /*Section-4*/
 
   .section-4 {
-    margin-top:900px;
+    margin-top:600px;
   }
 
   .petala-maior {
