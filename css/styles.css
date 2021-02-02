@@ -624,6 +624,11 @@ width: 48%;
 @media screen and (max-width: 767px) {
 
   
+  html {
+    font-size:45%;
+  }
+
+  
   .checkbtn {
     display: block;
   }
@@ -646,8 +651,8 @@ width: 48%;
   }
 
   .checkbtn {
-    margin-top: -70px;
-    font-size: 30px;
+    margin-top: -80px;
+    font-size: 35px;
     color: tomato;
     align-items: center;
     margin-left: 350px;
@@ -690,7 +695,7 @@ width: 48%;
   /*Section 1*/
 
   .section-1 {
-  margin-top: -20px;
+  margin-top: 20px;
     
   }
 
@@ -739,7 +744,7 @@ width: 48%;
 
   .virus-pequeno {
     top:-49px;
-    left: 270px;
+    left: 300px;
   }
 
   /*Section-3*/
