@@ -670,6 +670,10 @@ width: 48%;
     padding: 5px;
   }
 
+  ul li a:hover {
+    color: #ff383d;
+  }
+
   .logo {
     width: 300px;
     justify-content: center;
@@ -684,6 +688,10 @@ width: 48%;
     margin: -12px;
     margin-left: -32px;
     font-size: 25px;
+  }
+
+  .contact-button:hover {
+    color: #ff383d;
   }
 
 
@@ -747,7 +755,7 @@ width: 48%;
  
   .section-3 {
     width: 300px;
-    margin-top: -80px;
+    margin-top: -50px;
     margin-left: -170px;
  
     
@@ -885,7 +893,7 @@ width: 48%;
 
   .section5-img-4  {
     width: 350px;
-    margin: 0 70px;
+    margin: 0 50px;
   }
 
 
@@ -900,6 +908,8 @@ width: 48%;
   .virus-v {
     display: none;
   }
+
+  /*Section-6*/
   
 
 
