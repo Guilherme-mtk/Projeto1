@@ -31,10 +31,6 @@ img {
 /* Header*/
 
 
-.check:checked ~ .menu {
-  
-}
-
 #check {
   display: none;
 }
@@ -59,8 +55,7 @@ img {
   font-size: 50px;
 }
 
-.menu,
-ul {
+.menu,ul {
   display: flex;
 }
 
@@ -639,7 +634,7 @@ width: 48%;
     transition: all 0.5s;
     position: absolute;
     text-align: center;
-    margin-left: 125px;
+    margin-left: 132px;
     margin-top: 200px;
     font-size: 25px;
    
@@ -754,15 +749,22 @@ width: 48%;
     width: 300px;
     margin-top: -80px;
     margin-left: -170px;
+ 
+    
   }
 
   .section3-titulo {
     width: 350px;
-    margin-left: 215px;
+    margin-left: 230px;
+   
  }
 
+ .section3-titulo h1 {
+  margin: 0 50px;
+}
+
  .section3-titulo h2 {
-  margin: 0 -40px;
+  margin: 0 20px;
 }
 
   .imgs {
@@ -835,16 +837,70 @@ width: 48%;
   }
 
   /*Section-5*/
-  
+
+  .section-5 {
+   margin-top: -450px;
+  }
 
   .img-texto {
     display: block;
   }
 
+  .img-texto2 {
+    display: block;
+   
+  }
+
+  .section5-img-1 {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .masks  p {
+    width: 300px;
+  }
+
+  .section5-img-2 {
+    margin: 0 auto;
+  }
+
+
+  .hands-2 p {
+    width: 300px;
+  }
+
+  .section5-img-3 {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .rag-2 p {
+    width: 300px;
+  }
+
+  .rag {
+    margin-top: 90px;
+  }
+
+
+  .section5-img-4  {
+    width: 350px;
+    margin: 0 70px;
+  }
+
+
+  .avoid {
+    margin-top: 90px;
+  }
 
   .virus-completo {
     display: block;
   }
+
+  .virus-v {
+    display: none;
+  }
+  
 
 
 }
