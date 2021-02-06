@@ -487,15 +487,16 @@ width: 48%;
 
 .virus-vermelho {
   position: absolute;
-  left: 1731px;
+  left: 1942px;
   margin-top: -10px;
 }
 
 .virus-completo {
   position: absolute;
-  left: 1730px;
+  left: 1930px;
   margin-top: -470px;
 }
+
 
 /*section-6*/
 
@@ -566,6 +567,107 @@ width: 48%;
   margin-top: 190px;
   font-size: 6.5rem;
   color: #0C6C44;
+}
+
+.btn-send {
+  width: 900px;
+  color: grey;
+  font-size: 2.0rem;
+  margin-top: 80px;
+}
+
+.btn-send a {
+  font-size: 2.2rem;
+  background: #F44A45;
+  border-radius: 55px; 
+  color: #ffffff;
+  font-weight: bold;
+  padding: 3.3rem 9.0rem;
+}
+
+
+
+.btn-send input {
+  border: none;
+  outline: 0;
+  height: 70px;
+  font-size: 2.2rem;
+  width: 550px;
+ }
+
+ .virus-final {
+   position: absolute;
+   right: 0;
+   margin-top: -190px;
+ }
+
+ .virus-completo-f {
+   position: absolute;
+   right: 170px;
+   margin-top: -270px;
+ }
+
+.menu-footer {
+ width: 550px;
+ margin: 0 auto;
+ margin-top: -70px;
+ align-items: center;
+ margin-top: -88px;
+ }
+
+
+ .menu-footer ul li {
+   display: flex;
+   font-size: 2.5rem;
+   margin: 0 auto;
+   margin-left: -20px;
+ }
+
+ .menu-footer a {
+   padding:3.5rem;
+ } 
+
+ .footer-logo {
+   width: 300px;
+   align-items: center;
+   margin-left:290px;
+ }
+
+ .redes-sociais {
+   display: flex;
+   
+   
+  margin-left: 290px;
+ }
+
+ .facebook {
+   margin: 40px 10px;
+   color: #0C6C44;
+ }
+
+ .youtube i {
+  margin: 40px 0px;
+  color: red;
+}
+
+.vimeo {
+  margin: 40px 0px;
+  color: #0C6C44;
+}
+
+.twitter {
+  margin: 40px ;
+  color: #0C6C44;
+}
+
+.pixel {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.pixel p {
+  margin-left: 61px;
+  font-size: 2.2rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
