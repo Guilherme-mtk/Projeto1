@@ -780,7 +780,7 @@ li .efeito:hover::after {
     transition: all 0.5s;
     position: absolute;
     text-align: center;
-    margin-left: 132px;
+    margin-left: 172px;
     margin-top: 200px;
     font-size: 25px;
   }
@@ -1085,7 +1085,7 @@ li .efeito:hover::after {
   .footer-logo {
     height: 100px;
     margin-top: -50px;
-    margin-left: 150px;
+    margin-left: 110px;
   }
 
   .menu-footer {
@@ -1114,7 +1114,7 @@ li .efeito:hover::after {
 
   .youtube {
     margin-left: -20px;
-    margin-top: 5px;
+
   }
 
   .facebook {
