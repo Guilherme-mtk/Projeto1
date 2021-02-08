@@ -790,11 +790,11 @@ li .efeito:hover::after {
   }
 
   .checkbtn {
-    margin-top: -80px;
+    margin-top: -68px;
     font-size: 35px;
     color: tomato;
     align-items: center;
-    margin-left: 350px;
+    margin-left: 450px;
   }
 
   .header-cabeçalho .container {
@@ -894,7 +894,7 @@ li .efeito:hover::after {
   .section-3 {
     width: 300px;
     margin-top: -50px;
-    margin-left: -200px;
+    margin-left: -175px;
   }
 
   .section3-titulo {
@@ -919,6 +919,7 @@ li .efeito:hover::after {
 
   .imgs-3 {
     margin-top: -80px;
+    margin-left: 30px;
   }
 
   .imgs-3 p {
@@ -927,7 +928,7 @@ li .efeito:hover::after {
 
   .imgs-4 {
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
   .imgs-4 p {
@@ -936,7 +937,7 @@ li .efeito:hover::after {
 
   .imgs-5 {
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left:30px;
   }
 
   .imgs-5 p {
@@ -1084,7 +1085,7 @@ li .efeito:hover::after {
   .footer-logo {
     height: 100px;
     margin-top: -50px;
-    margin-left: 115px;
+    margin-left: 150px;
   }
 
   .menu-footer {
@@ -1094,7 +1095,8 @@ li .efeito:hover::after {
 
   .menu-footer ul li a {
     padding: 10px 20px;
-    margin: 30px 5px;
+    margin-left: 10px;
+   
   }
 
   .redes-sociais {
@@ -1107,14 +1109,20 @@ li .efeito:hover::after {
   }
 
   .twitter {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .youtube {
-    margin-left: -10px;
+    margin-left: -20px;
+    margin-top: 5px;
   }
 
   .facebook {
-    margin-left: 10px;
+    margin-left: -10px;
+  }
+
+  .pixel p {
+    width: 300px;
+    margin:0 80px;
   }
 }
