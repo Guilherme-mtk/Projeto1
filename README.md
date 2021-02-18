@@ -1,2 +1,1 @@
-# COVID-19
- Primeiro Repotório
+# Projeto sobre o Covid-19 utilizando HTML/CSS
